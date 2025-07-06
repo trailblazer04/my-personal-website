@@ -18,3 +18,13 @@ document.addEventListener("DOMContentLoaded", function () {
     // Append button to the main section
     document.querySelector("main").appendChild(button);
 });
+
+// Open Sidebar
+function openSidebar() {
+    document.getElementById("sidebar").style.left = "0";
+}
+
+// Close Sidebar
+function closeSidebar() {
+    document.getElementById("sidebar").style.left = "-250px";
+}
